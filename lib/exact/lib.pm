@@ -54,8 +54,8 @@ __END__
 =begin :badges
 
 =for markdown
-[![Build Status](https://travis-ci.org/gryphonshafer/exact-lib.svg)](https://travis-ci.org/gryphonshafer/exact-lib)
-[![Coverage Status](https://coveralls.io/repos/gryphonshafer/exact-lib/badge.png)](https://coveralls.io/r/gryphonshafer/exact-lib)
+[![build](https://github.com/gryphonshafer/exact-lib/workflows/build/badge.svg)](https://github.com/gryphonshafer/exact-lib/actions?query=workflow%3Abuild)
+[![codecov](https://codecov.io/gh/gryphonshafer/exact-lib/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/exact-lib)
 
 =end :badges
 
@@ -123,8 +123,8 @@ You can look for additional information at:
 =for :list
 * L<GitHub|https://github.com/gryphonshafer/exact-lib>
 * L<MetaCPAN|https://metacpan.org/pod/exact::lib>
-* L<Travis CI|https://travis-ci.org/gryphonshafer/exact-lib>
-* L<Coveralls|https://coveralls.io/r/gryphonshafer/exact-lib>
+* L<GitHub Actions|https://github.com/gryphonshafer/exact-lib/actions>
+* L<Codecov|https://codecov.io/gh/gryphonshafer/exact-lib>
 * L<CPANTS|http://cpants.cpanauthors.org/dist/exact-lib>
 * L<CPAN Testers|http://www.cpantesters.org/distro/D/exact-lib.html>
 
