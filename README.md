@@ -4,10 +4,10 @@ exact::lib - Compile-time @INC manipulation extension for exact
 
 # VERSION
 
-version 1.01
+version 0.001
 
-[![Build Status](https://travis-ci.org/gryphonshafer/exact-lib.svg)](https://travis-ci.org/gryphonshafer/exact-lib)
-[![Coverage Status](https://coveralls.io/repos/gryphonshafer/exact-lib/badge.png)](https://coveralls.io/r/gryphonshafer/exact-lib)
+[![build](https://github.com/gryphonshafer/exact-lib/workflows/build/badge.svg)](https://github.com/gryphonshafer/exact-lib/actions?query=workflow%3Abuild)
+[![codecov](https://codecov.io/gh/gryphonshafer/exact-lib/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/exact-lib)
 
 # SYNOPSIS
 
@@ -72,8 +72,8 @@ You can look for additional information at:
 
 - [GitHub](https://github.com/gryphonshafer/exact-lib)
 - [MetaCPAN](https://metacpan.org/pod/exact::lib)
-- [Travis CI](https://travis-ci.org/gryphonshafer/exact-lib)
-- [Coveralls](https://coveralls.io/r/gryphonshafer/exact-lib)
+- [GitHub Actions](https://github.com/gryphonshafer/exact-lib/actions)
+- [Codecov](https://codecov.io/gh/gryphonshafer/exact-lib)
 - [CPANTS](http://cpants.cpanauthors.org/dist/exact-lib)
 - [CPAN Testers](http://www.cpantesters.org/distro/D/exact-lib.html)
 
@@ -83,7 +83,7 @@ Gryphon Shafer <gryphon@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2020 by Gryphon Shafer.
+This software is copyright (c) 2021 by Gryphon Shafer.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
