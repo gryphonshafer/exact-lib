@@ -4,7 +4,7 @@ exact::lib - Compile-time @INC manipulation extension for exact
 
 # VERSION
 
-version 1.03
+version 1.04
 
 [![test](https://github.com/gryphonshafer/exact-lib/workflows/test/badge.svg)](https://github.com/gryphonshafer/exact-lib/actions?query=workflow%3Atest)
 [![codecov](https://codecov.io/gh/gryphonshafer/exact-lib/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/exact-lib)

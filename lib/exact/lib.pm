@@ -3,18 +3,17 @@ package exact::lib;
 
 use 5.014;
 use exact;
-use strict;
 use FindBin;
 
 # VERSION
 
 sub import {
-    my ( $self, $caller, $input ) = @_;
+    my ( $self, $params ) = @_;
 
-    $input //= 'lib';
-    $input =~ s/(^\s+|\s+$)//g;
+    $params //= 'lib';
+    $params =~ s/(^\s+|\s+$)//g;
 
-    for my $dir ( map { s/\\ / /g; $_ } split( /(?<!\\)\s/, $input ) ) {
+    for my $dir ( map { s/\\ / /g; $_ } split( /(?<!\\)\s/, $params ) ) {
         if ( index( $dir, '/', 0 ) == 0 ) {
             _add_to_inc($dir);
         }
